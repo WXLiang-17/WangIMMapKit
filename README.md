@@ -1,0 +1,2 @@
+# WangIMMapKit
+提供在IM应用中集成高德地图的功能，支持实时位置共享与位置消息发送，使用无IDFA版本SDK规避App Store审核问题
