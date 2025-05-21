@@ -22,7 +22,7 @@ pod 'WangIMMapKit'
 
 ## Author
 
-Wang, wangxueliang@tourscool.com
+Wang, 1162558647@qq.com
 
 ## License
 
