@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'WangIMMapKit_Example' do
+  pod 'WangIMMapKit', :path => '../'
+
+  target 'WangIMMapKit_Tests' do
+    inherit! :search_paths
+    
+    pod 'LookinServer', :subspecs => ['Swift'], :configurations => ['Debug'] # 自定义的服务器配置（仅在 Debug 模式下使用）
+    
+  end
+end

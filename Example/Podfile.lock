@@ -1,0 +1,51 @@
+PODS:
+  - AMap3DMap-NO-IDFA (10.1.200):
+    - AMapFoundation-NO-IDFA (>= 1.8.0)
+  - AMapFoundation-NO-IDFA (1.8.2)
+  - AMapLocation-NO-IDFA (2.10.0):
+    - AMapFoundation-NO-IDFA (>= 1.8.0)
+  - AMapSearch-NO-IDFA (9.7.4):
+    - AMapFoundation-NO-IDFA (>= 1.8.0)
+  - Kingfisher (8.3.2)
+  - LookinServer/Core (1.2.8)
+  - LookinServer/Swift (1.2.8):
+    - LookinServer/Core
+  - SnapKit (5.7.1)
+  - WangIMMapKit (0.0.1):
+    - AMap3DMap-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - Kingfisher
+    - SnapKit
+
+DEPENDENCIES:
+  - LookinServer/Swift
+  - WangIMMapKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AMap3DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - Kingfisher
+    - LookinServer
+    - SnapKit
+
+EXTERNAL SOURCES:
+  WangIMMapKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMap3DMap-NO-IDFA: 595999463230cf460ef7bdfa6e8dbf21ba342642
+  AMapFoundation-NO-IDFA: 6ce0ef596d4eb8d934ff498e56747b6de1247b05
+  AMapLocation-NO-IDFA: 735791aeb1ba52dff666e4158b86caf4b68b5be7
+  AMapSearch-NO-IDFA: 53b2193244be8f07f3be0a4d5161200236960587
+  Kingfisher: 0621d0ac0c78fecb19f6dc5303bde2b52abaf2f5
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  WangIMMapKit: ac980f3a4fd7ed44dec3de49d387736c47fb60fa
+
+PODFILE CHECKSUM: 1d5380b15a4707bb6b2b1c97bc8a9d0677293372
+
+COCOAPODS: 1.16.2

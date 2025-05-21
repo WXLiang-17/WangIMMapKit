@@ -1,2 +1,29 @@
 # WangIMMapKit
-提供在IM应用中集成高德地图的功能，支持实时位置共享与位置消息发送，使用无IDFA版本SDK规避App Store审核问题
+
+[![CI Status](https://img.shields.io/travis/Wang/WangIMMapKit.svg?style=flat)](https://travis-ci.org/Wang/WangIMMapKit)
+[![Version](https://img.shields.io/cocoapods/v/WangIMMapKit.svg?style=flat)](https://cocoapods.org/pods/WangIMMapKit)
+[![License](https://img.shields.io/cocoapods/l/WangIMMapKit.svg?style=flat)](https://cocoapods.org/pods/WangIMMapKit)
+[![Platform](https://img.shields.io/cocoapods/p/WangIMMapKit.svg?style=flat)](https://cocoapods.org/pods/WangIMMapKit)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+WangIMMapKit is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'WangIMMapKit'
+```
+
+## Author
+
+Wang, wangxueliang@tourscool.com
+
+## License
+
+WangIMMapKit is available under the MIT license. See the LICENSE file for more info.
