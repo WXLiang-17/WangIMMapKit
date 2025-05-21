@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Wang/WangIMMapKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wang' => '1162558647@qq.com' }
-  s.source           = { :git => 'https://github.com/Wang/WangIMMapKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:WXLiang-17/WangIMMapKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '13.0'
   s.swift_version    = '5.0'  # 强制主工程启用动态框架模式
 
